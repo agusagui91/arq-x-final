@@ -1,4 +1,6 @@
-.footer{    
+@media screen and (min-width:480px) {
+
+    .footer{    
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -34,3 +36,43 @@
     z-index: 2;
 }
 
+}
+
+@media screen and (max-width:480px) {
+
+.whatsapp{
+    position: fixed;
+    bottom: 15px;
+    left: 15px;
+    width: 60px;
+    height: 60px;
+    z-index: 2;
+    }
+   
+.footer{    
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%; 
+    }  
+
+.social{
+    list-style: none;
+    padding: 5px;
+    width: 1px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 35%;
+        li{
+        padding: 20px;
+        width: 20px;
+            a{
+            text-decoration: none;
+            text-align: center;
+            padding: 10px;
+            }
+        }
+    }      
+}

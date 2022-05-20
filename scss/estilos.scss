@@ -36,22 +36,6 @@ $estilos: (
     text-transform: map-get($estilos, transform1);
 }
 
-.card__obras {
-    background-color: #dea26c;
-    width: 450px;
-    height: 520px;
-    margin-right: 2%;
-    margin-top: 2%;
-    padding: 1px;
-    border: 5px solid black;
-}
 
-.card__proyectos{
-    @extend.card__obras;
 
-}
-
-.card__concursos{
-    @extend.card__obras;
-}
 
